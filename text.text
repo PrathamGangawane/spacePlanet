@@ -1,0 +1,13 @@
+arrow functions in callBacks 
+gsap.to('.main,{
+    duration:1,
+    scale:1,
+    onComplete:myFunction,
+})
+function myFunction(){
+    console.log(this) => this is function return the  value of gsap container 
+    console.log(this.target()[0])
+}
+onCompleteParams:['hello',6];
+function complete call back console.log(this) dev tools false web development
+// call backs scope animation 
